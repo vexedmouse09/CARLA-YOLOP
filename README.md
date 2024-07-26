@@ -8,6 +8,10 @@ Scripts pertaining to the possible integration:
 Scripts pertaining to the FUNCTIONAL dataset generator:
 -automatic_control_AND_MORE.py
 
+To run the dataset generator, navigate to your working directory, and run the following command: 
+```./automatic_control_AND_MORE.py``` you may also want to run a set of arguments to specify certain parameters, such as ```-n #``` for number of vehicles (# is any non-negative number, but I recommend you use a lower number to start to avoid system crashes. ```-w #``` specifies the amount of pedestrians, although this section of the code is currently commented out due to system crashes caused by pedestrian spawning. Other parameters need not be changed (unless absolutely neccesary), and many of the additional parameters may be changed from directly within the script itself (there are accompanying comments within the script.
+
+
 In order to use this script , you may follow the directions provided by SekiroRong in this repo for basic instructions, as our code follows their framework with a few minor additions to ensure proper functionality: 
 https://github.com/SekiroRong/Carla_dataset_generator
 
