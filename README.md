@@ -1,4 +1,26 @@
-CARLA Simulator
+Unofficial 2024 CARLA YOLOP integration, 
+currently the YOLOP direct integration is not functional, but the scripts I have created in order to make this process start to work are located in this repo. Future research is to be done in order to make this project work as expected. This is an implementation based directly off of SekiroRong's CARLA YOLOP integration and dataset generator code. 
+
+Scripts pertaining to the possible integration:
+- YOLP_2_CARLA.py
+- automatic_control_with_yolop.py
+
+Scripts pertaining to the FUNCTIONAL dataset generator:
+-automatic_control_AND_MORE.py
+
+In order to use this script , you may follow the directions provided by SekiroRong in this repo for basic instructions, as our code follows their framework with a few minor additions to ensure proper functionality: 
+https://github.com/SekiroRong/Carla_dataset_generator
+
+Throughout the scripts in this repo, our team has made many comments in order to help readers understand what each portion of the script does.
+
+In order to properly set up the CARLA simulator, please follow the directions for building the simulator from source, as this will give you much more control over the environments the car will be driving in . 
+I have included a copy of their README below, as well as copies of SekiroRong's READMEs within the folders. 
+
+The README below originates from the following repository: https://github.com/carla-simulator/carla
+
+
+
+CARLA Simulator Official README
 ===============
 
 [![Documentation](https://readthedocs.org/projects/carla/badge/?version=latest)](http://carla.readthedocs.io)
